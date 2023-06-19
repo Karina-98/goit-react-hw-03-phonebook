@@ -3,7 +3,7 @@ import React from 'react';
 import { ButtonAdd, Conteiner, Form, Input } from './ContactForm.styled';
 
 export class ContactForm  extends React.Component{
-   nanoIdName = nanoid();
+  nanoIdName = nanoid();
  nanoIdNumber = nanoid();
 
  state = {
